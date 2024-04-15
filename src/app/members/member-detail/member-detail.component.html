@@ -33,6 +33,8 @@
             <tab heading="About {{member.name}}">
                 <h4>Description</h4>
                 <p>{{member.bio}}</p>
+                <h4>Interests</h4>
+                <p>{{member.interests}}</p>
             </tab>
             <tab heading="Photos" #photoTab = "tab">
                 <gallery *ngIf="photoTab.active" [items]="images" class="gallery"></gallery>

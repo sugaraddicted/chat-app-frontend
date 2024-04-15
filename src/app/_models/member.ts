@@ -5,6 +5,7 @@ export interface Member {
     username: string;
     name: string;
     bio: string;
+    interests: string;
     photoUrl: string;
     photos: Photo[];
     age: number;
